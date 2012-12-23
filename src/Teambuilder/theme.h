@@ -40,6 +40,7 @@ public:
 
     static QColor Color(const QString &code);
     static QColor TypeColor(int typenum);
+    static QString RandomBattleBackgroundPath();
     static QColor CategoryColor(int typenum);
     static QColor StatusColor(int status);
     static QColor ChatColor(int num);

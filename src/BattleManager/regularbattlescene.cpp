@@ -471,7 +471,7 @@ GraphicsZone::GraphicsZone(battledata_ptr i, BattleDefaultTheme *theme) : mInfo(
     items.resize(nslots);
 
     scene.setSceneRect(0,0,257,145);
-    scene.addItem(new QGraphicsPixmapItem(theme->pic(QString("battle_fields/%1.png").arg((rand()%11)+1))));
+    scene.addItem(new QGraphicsPixmapItem(theme->pic(QString("battle_fields/regular/%1.png").arg((rand()%11)+1))));
 
     for (int i = 0; i < nslots; i++) {
         items[i] = new QGraphicsPixmapItem();

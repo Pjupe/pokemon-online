@@ -6,6 +6,16 @@ Item {
     property TeamData team
     z: 500;
 
+    Image {
+        id: fog
+        source: "../images/teamfog.png"
+        anchors.fill: parent
+        anchors.margins: -20;
+        anchors.rightMargin: -25;
+        anchors.leftMargin: -25;
+        z: -10;
+    }
+
     GridView {
         id: grid
         anchors.fill: parent

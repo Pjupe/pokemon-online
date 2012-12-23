@@ -46,6 +46,7 @@ static void fill_container_with_file(T &container, const QString & filename)
 }
 
 class BattleTheme : public BattleDefaultTheme {
+    QString randomBackground() {return Theme::RandomBattleBackgroundPath();}
     QColor typeColor(int t){return Theme::TypeColor(t);}
     QColor categoryColor(int c){return Theme::CategoryColor(c);}
     QColor statusColor(int s){return Theme::StatusColor(s);}
@@ -169,6 +170,26 @@ QString Theme::FindTheme(const QString& theme)
 QColor Theme::TypeColor(int typenum)
 {
     return m_TColors[typenum];
+}
+
+QString Theme::RandomBattleBackgroundPath()
+{
+    QDir d(path("battle_fields/new/"));
+    QStringList files = d.entryList(QStringList() << "*.png" << "*.gif" << "*.jpg" << "*.jpeg", QDir::Files);
+
+    if (files.count() == 0) {
+        d.home();
+        d.cd(path("battle_fields/new/", true));
+
+        files = d.entryList(QStringList() << "*.png" << "*.gif" << "*.jpg" << "*.jpeg", QDir::Files);
+    }
+
+    if (files.count() == 0) {
+        d.home();
+        return d.absoluteFilePath("qml/images/grass.png");
+    } else {
+        return d.absoluteFilePath(randomElement(files));
+    }
 }
 
 QColor Theme::Color(const QString &code)

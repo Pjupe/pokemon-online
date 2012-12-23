@@ -183,4 +183,14 @@ void removeFolder(const QString &folder);
 /* Tests if the given file is writable */
 bool testWritable(const QString &f= QString());
 
+template <typename T>
+typename T::value_type randomElement(const T& container) {
+    if (container.count() == 0) {
+        typename T::value_type x;
+        return x;
+    } else {
+        return container[rand() % container.count()];
+    }
+}
+
 #endif // FUNCTIONS_H

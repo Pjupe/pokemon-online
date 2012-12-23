@@ -10,6 +10,7 @@ class BattleDefaultTheme : public QObject {
 public:
     BattleDefaultTheme(QObject *parent=0) : QObject(parent){}
 
+    Q_INVOKABLE virtual QString randomBackground() {return QString();}
     Q_INVOKABLE virtual QColor typeColor(int){return QColor();}
     virtual QColor categoryColor(int){return QColor();}
     virtual QColor statusColor(int){return QColor();}

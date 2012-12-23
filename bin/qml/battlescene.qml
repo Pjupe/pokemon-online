@@ -8,10 +8,11 @@ Item {
     id: scene;
     width: bg.width;
     height: bg.height
+
     /* Separate element so that it can have a negative Z and be separate from the rest */
     Image {
         id: bg;
-        source: "images/grass.png"
+        source: theme.randomBackground();
         width: battle.scene.width
         height: battle.scene.height
         z: -500;
@@ -191,6 +192,7 @@ Item {
     Connections {
         target: battle.scene
         onAttackUsed: {
+            console.log("bg source: " + source);
             fieldPokemons[spot].useAttack(attack, fieldPokemons[1-spot], params);
         }
         onHit: {
