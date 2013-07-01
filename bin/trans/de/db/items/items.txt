@@ -11,7 +11,7 @@
 10 Fokus-Gurt
 11 Lahmrauch
 12 Grüner Schal
-13 Schwerschwf.
+13 Schwerschweif
 14 Laxrauch
 15 Überreste
 16 Glücksrauch
@@ -155,12 +155,12 @@
 154 Zink
 155 Eisbrocken
 156 Lucky Punch
-157 Dubios Disc
+157 Dubiosdisc
 158 Hackattack
-159 Adamant Orb
+159 Adamant-Orb
 160 Nassbrocken
 161 Heißbrocken
-162 Weißorb
+162 Weiß-Orb
 163 Machoand
 164 Lauchstange
 165 Drachenzahn
@@ -211,53 +211,53 @@
 210 Wurzelfossil
 211 Kopffossil
 212 Eisenkugel
-213 Griseous Orb
-214 Air Mail
-215 Bloom Mail
-216 Brick Mail
-217 Bubble Mail
-218 Flame Mail
-219 Grass Mail
-220 Harbor Mail
-221 Heart Mail
-222 Mosaic Mail
-223 Snow Mail
-224 Space Mail
-225 Steel Mail
-226 Tunnel Mail
-227 Aqua Cassette
-228 Lightning Cassette
-229 Blaze Cassette
-230 Freeze Cassette
-231 Heart Sweets
+213 Platinum-Orb
+214 Luftbrief
+215 Blumenbrief
+216 Ziegelbrief
+217 Wasserbrief
+218 Feuerbrief
+219 Wiesenbrief
+220 Hafenbrief
+221 Rosabrief
+222 Mosaikbrief
+223 Schneebrief
+224 Sternbrief
+225 Stahlbrief
+226 Minenbrief
+227 Aquamodul
+228 Blitzmodul
+229 Flammenmodul
+230 Gefriermodul
+231 Herzkonfekt
 232 Clean Scale
-233 Evolution Stone
-234 Pumice Stone
-235 Rugged Helmet
-236 Balloon
-237 Red Card
-238 Bull's Eye
-239 Pressure Band
-240 Bulb
-241 Rechargeable Battery
-242 Escape Button
-243 Fire Jewel
-244 Water Jewel
-245 Electric Jewel
-246 Grass Jewel
-247 Ice Jewel
-248 Fight Jewel
-249 Poison Jewel
-250 Earth Jewel
-251 Flight Jewel
-252 Psychic Jewel
-253 Bug jewel
-254 Rock Jewel
-255 Ghost Jewel
-256 Dragon Jewel
-257 Dark Jewel
-258 Steel Jewel
-259 Normal Jewel
+233 Evolith
+234 Leichtstein
+235 Beulenhelm
+236 Luftballon
+237 Rote Karte
+238 Zielscheibe
+239 Klammerband
+240 Knolle
+241 Akku
+242 Fluchtknopf
+243 Feuerjuwel
+244 Wasserjuwel
+245 Elektrojuwel
+246 Pflanzenjuwel
+247 Eisjuwel
+248 Kampfjuwel
+249 Giftjuwel
+250 Bodenjuwel
+251 Kampfjuwel
+252 Psychojuwel
+253 Käferjuwel
+254 Gesteinjuwel
+255 Geistjuwel
+256 Drakojuwel
+257 Unlichtjuwel
+258 Stahljuwel
+259 Normaljuwel
 260 Strength Wing
 261 Power Wing
 262 Resistance Wing
@@ -265,7 +265,7 @@
 264 Mind Wing
 265 Instant Wing
 266 Beautiful Wing
-267 Dream Ball
+267 Traumball
 268 Fragrant Mushroom
 269 Huge Gold Orb
 270 Round Pearl
@@ -302,4 +302,4 @@
 301 Item Call
 302 Flat Call
 303 Dire Hit 3
-304 Berserk Gene
+304 Berserk-Gen
